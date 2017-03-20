@@ -2,7 +2,7 @@ angular.module('app')
 .directive('listItem', function() {
   return {
     scope: {
-      item: '<',
+      log: '<',
     },
     restrict: 'E',
     controller: function() {},
