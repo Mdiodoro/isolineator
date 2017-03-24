@@ -2,7 +2,7 @@ const AWS = require('aws-sdk');
 const Stream = require('stream');
 
 //load aws creds
-AWS.config.loadFromPath('./APIs/isolineatorCreds.json');
+AWS.config.loadFromPath('../APIs/isolineatorCreds.json');
 
 //get polly object
 var polly = new AWS.Polly();
